@@ -1,11 +1,9 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.3.0
+Legfrissebb verzió: 0.4.0
 
-- AI Stúdió: érti a magyart toldalékokkal, rokon szavakkal, tagadással („ne legyen átmenet”, „a harmadik jelenetre…”)
-- Közös mód: az AI élőben veled együtt dolgozik az idővonalon, a kurzorai minden oldalon látszanak, és élő munkapanel mutatja, mit csinál
-- Vágás a zenére, ütem-montázs, 30 mp-es összefoglaló a legjobb részekből, lassított pillanat, lüktetés az ütemeken
-- „Csináld menőre”: az AI magától dönt – csendvágás, J-vágás, tisztább beszéd, zenehalkítás, színegyensúly, ütés és CGI a dropnál
-- Dinamikus zoom a beszéd hangsúlyainál, stílus átvétele egy példavideóból
-- Saját kijelölés az AI-nak: kijelölt klipek, vagy egy terület a monitoron („a kijelölt részre tegyél homályt”)
-- Felirat a beszédből a gépen (első használatkor letölti a hangmodellt)
+- Az AI érti, mi történik a videóban: akció, beszéd, tánc, táj, nyugodt rész vagy játékfelvétel – „mi történik a videóban?”, színes tartalomsáv a monitoron
+- Zene–kép okos párosítás: a zene csendes részére nyugodt, hosszú snittek, a refrénre és a dropra a legakciósabb pillanatok, minden vágás ütemre („párosítsd a klipeket a zenével”)
+- A „csináld menőre” a tartalomhoz igazodik: táncnál nem vágja szét a zenét, akciónál pörög, tájnál lágyan úsztat
+- Fejlesztőknek: AI Tanító – néhány példából megtanulja a játék eseményeit (például a killeket), és montázst készít belőlük
+- Dinamikus zoom, saját kijelölés az AI-nak (klipek, terület a monitoron), felirat a beszédből
