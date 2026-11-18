@@ -1,9 +1,11 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.4.0
+Legfrissebb verzió: 0.5.0
 
-- Az AI érti, mi történik a videóban: akció, beszéd, tánc, táj, nyugodt rész vagy játékfelvétel – „mi történik a videóban?”, színes tartalomsáv a monitoron
-- Zene–kép okos párosítás: a zene csendes részére nyugodt, hosszú snittek, a refrénre és a dropra a legakciósabb pillanatok, minden vágás ütemre („párosítsd a klipeket a zenével”)
-- A „csináld menőre” a tartalomhoz igazodik: táncnál nem vágja szét a zenét, akciónál pörög, tájnál lágyan úsztat
-- Fejlesztőknek: AI Tanító – néhány példából megtanulja a játék eseményeit (például a killeket), és montázst készít belőlük
-- Dinamikus zoom, saját kijelölés az AI-nak (klipek, terület a monitoron), felirat a beszédből
+- Teljesen új AI Stúdió: felső vezérlősáv, Filmkép (tartalom, energia, hang, beszéd, ritmus, kis képek abból, amit az AI látott), mérők és filmpont 0–100
+- Vágási stílusok egy kattintással: Ultra montázs, Hollywood-film, Trailer, TikTok, Reels, YouTube vlog, Zenei klip, Gaming montázs, Esküvő, Dokumentumfilm, Podcast, Noir
+- Az AI látja a képet a gépeden: leírja, mi van rajta, felismeri a tárgyakat és kiolvassa a feliratokat (első használatkor letölti a képmodellt)
+- „Robbanjon fel az autó”: kijelölés nélkül is megkeresi a tárgyat, és követéssel ráteszi a hatást
+- Emlékezet: „jegyezd meg: mindig legyen filmes szín”, jelölj ki valamit és írd: „ez Bence motorja” – később név szerint hivatkozhatsz rá; abból is tanul, amit elfogadsz vagy elvetsz
+- Kézi eszközsor a kijelölésen: robbanás, tűz, szikra, villám, füst egy kattintással, követéssel
+- Hangeffektek, B-roll a beszéd alá, POV-felismerés játékban, punch-in az ugróvágások ellen, hollywoodi sorrend
