@@ -1,23 +1,11 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.6.1
+Legfrissebb verzió: 0.6.4
 
-- Új AI Stúdió-montázs: a zenére vágott videó egyetlen tervből – a zene végig egyben marad, a kép hangja kikerül, hézag és fekete kép nélkül, minden vágás ütemen, a legjobb pillanat a dropon (lassítás, villanás)
-- CS2-killfelismerés betanítás nélkül: a killfeedből megtalálja a saját killjeidet és halálaidat, a fejlövést, a füstön és falon átlövést, az AWP-t – és pontozza őket (a gyors többes kill többet ér)
-- A pontozótábla, a vásárlómenü és a halál utáni képernyő nem kerül a montázsba; a vakító gránát fehérje átmenet a következő jelenetbe
-- Vágási stílusok kategóriákban: Játék → CS2 → Frag montázs, Highlight, Cinematic edit (további játékok hamarosan), Film, Közösségi, Zene, Esemény; a Rendező a csevegőben elmondja a tervet
-- Az export sok snittnél töredék memóriával dolgozik
-- ✦ AI javítás: új ág a Varázslóban – AI felskálázás 4K-ig, a gépeden, ingyen (Real-ESRGAN a videókártyán)
-- AI felskálázás: villódzásgátló, sávmentes ég, ⚙ Automatikus beállítás (felismeri a TikTokos videót)
-- ⛶ Nagy nézet: előtte | utána húzható vonallal, az egész munkaterületen – minden effektnél
-- Képjavítás: Ultra 4K élesség, Ultra HD remaster, Ray Boost, HDR Pop, Kristálytiszta
-- Jobb kattintásos menü: kettévágás, átmenet egy kattintással, effekt, lassítás, törlés
-- 12 új, lágy átmenet (Whip pan, Lágy áttűnés, Lágy fényvillanás…) és 10 új effekt „ÚJ” címkével
-- Javítva: a csúszó átmenetek élesebbek, a néző és a kész film képpontra egyezik
-- AI Stúdió – Filmtérkép: a hosszú filmet snittekre, jelenetekre és fejezetekre bontja, címekkel; „csak a 2. fejezetre”, „a 3. jelenetre” – a munka a kiválasztott részre megy, és ha nem egyértelmű, visszakérdez
-- Laptopon is kényelmes vágó: csíptetéssel nagyítasz a kurzor körül, két ujjal görgeted az idővonalat
-- A sávok kinagyíthatók: húzd fel-le a sáv alsó szélét (a Vágásban és a Varázslóban is), vagy görgess a sáv fejlécén – laptopon touchpaddal is folyamatosan nő
-- Ha egy sávot kinagyítasz, a többi nem megy össze, hanem lejjebb kerül, és görgethető
-- Sávmagasság egérrel: Alt+görgő a kurzor alatti sáv, Ctrl+Shift+görgő (vagy Ctrl+Shift +/−) minden sáv
-- Látható nagyító az idővonal eszközsorán: csúszka, nagyobb/kisebb, sávmagasság és „az egész film” gomb
-- A klip szélén ↔ mutató jelzi, hogy húzással rövidíthető vagy hosszabbítható
+- AI Stúdió – CS2: a lövés pontosan az ütemen szól. A killfeed sora ~80 ms-mal a lövés után jelenik meg; a montázs most a lövést teszi az ütemre (a játék hangjából ezredmásodpercre, ahogy a profi editekben – 7 profi videón lemérve)
+- Javítva: sok rövid snittes montázsnál a kész filmben a kép fokozatosan lemaradt a zenétől (3 perc alatt kb. 0,4 mp) – most a film végéig kockapontos (mérve: 132 snittes, 3 perces montázson a kép és a zene eltérése végig 1 kockán belül)
+- „Tanulj a referenciákból”: az AI Stúdió lemér minden videót a Videók mappa „referencia” nevű mappáiban (vágások, ütemek, killek, a lövés helye), és megtanulja belőlük a stílust – a highlight-mappából a CS2 Highlightot, az edit-mappából a CS2 Frag montázst
+- A csevegőben a tempó is állítható a kiválasztott stílushoz képest: „gyorsabb vágás”, „rövidebb snittek”, „pörgősebb” – vagy „hosszabb snittek”, „nyugodtabb”
+- Több hangsávos játékfelvételek (SteelSeries Moments, NVIDIA): a program a játék hangját használja – az üres sávot, a csevegést és a mikrofont kihagyja
+- Javítva: ha egy felvétel kör közben indul, a killfeedben már látszó régi killek nem számítanak új killnek (eddig hamis killek kerültek a klip elejére)
+- CS2 Frag montázs: a profi editek mért snitthosszához igazítva (a legrövidebb snitt 0,85 mp)
