@@ -1,12 +1,9 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.7.0
+Legfrissebb verzió: 0.7.1
 
-- **3D tér és kamera a Varázslóban** (új munkaterület: 3D): bármelyik klip 3D réteg lehet – dönthető előre-hátra és oldalra, mélységbe tolható; a projekt kamerája fényképezi, mint egy filmes kamera
-- A kamera megrajzolva, húzható: Felülnézetben és Oldalnézetben látod a jelenetet, a kamerát látószög-háromszöggel, a kezdőpontot (A, zöld), a végpontot (B, piros), az utat és a célpontot (szálkereszt) – húzással állítod, honnan induljon, hová menjen és mit vegyen
-- Kamera-beállítások: hely, célpont, dőlés, lencse (mm), kulcskockák könnyítéssel; 9 kész kameramozgás (Dolly be/ki, Körbejárás, Daru fel, Oldalazás, Vertigo, Repülés át, Billenés, Kézikamera) és 7 rétegállás (Padló – felirat a földön, Hátradőlt, Fal balra/jobbra, Lebegő, Előtér)
-- Forgatás közvetlenül a képen: Kamera nézetben a kép húzása körbeforgatja a kamerát a célpont körül, Shift+húzás oldalaz, a görgő közelít
-- AI Stúdió: „tegyél rá körbejáró kamerát”, „a felirat legyen a földön”, „kézikamera” – az ügynök a 3D-t is kezeli
-- A 3D kép a nézőben simított (3×3 alminta) és mérve egyezik a kész filmmel – egy képlet számolja mindkettőt
-- Varázsló a Resolve Fusion rendje szerint: balra a lenyitható, kereshető könyvtárfa (Resolve FX, Átmenetek, Animáció, 3D, Szöveg, VFX, CGI, AI javítás), középen a néző, alatta a gyors eszközök sora (behúzhatók), alul a csomóponttábla színes ágakkal (cím, CGI: zöld keverőág; kijelölés: kék maszk-ág; 3D: Kamera 3D csomópont), jobbra a részletes felügyelő szakaszokkal
-- 17 új átmenet a Resolve mintájára (lágy törlések, zárások, átlós és sarok-törlések, redőnyök, szeletek, írisz) – mind mérve
+- **Csomópont-szerkesztő a Fusion mintájára:** szabadon mozgatható csomópontok, a pontok húzással összeköthetők (kép: sárga, 3D jelenet: zöld), kijelölő négyzet, több kijelölés, közös mozgatás, törlés (Del), ki/be (Ctrl+P), nagyítás, tologatás (Alt+húzás), F: minden látszik
+- **Eszköz választása** kereséssel (Shift+Space, jobb vagy dupla kattintás): Kép-sík 3D, Kamera 3D, Egyesítés 3D, Renderelő 3D és minden effekt; a kijelölt után kötve kerül be
+- **Két néző a 3D-ben:** balra a szabadon forgatható Perspektíva (padlórács, a kamera drótváza látószög-gúlával, útja, célpontja – a kamera és a célpont a padlón húzható), jobbra a Kamera képe
+- **Szándék-vezérelt kamera:** 9 mozgás (Körpálya, Ráközelítés, Feltárás, Daru, Drámai ráközelítés, Vertigo, Kézikamera, Ütés…) a kép egy pontjához (⌖ horgony) és a klip hosszához igazítva – vágás után is a helyén marad; egyenletes sebesség, túllendülés nélküli csillapítás, kézikamera, lebegés, ütések a zene ütemein, dolly-zoom, védőkorlát (sosem megy a képbe), önjavítás jelentéssel
+- **● Felvétel:** bekapcsolva minden kamera-állítás kulcskocka – állj az elejére, állítsd be, lépj máshová, állítsd be: a kamera mozog, és a projekttel mentődik
