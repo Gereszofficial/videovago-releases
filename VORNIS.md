@@ -1,7 +1,5 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.7.5
+Legfrissebb verzió: 0.7.6
 
-- **A kép a helyén marad, a kamera körülötte mozog:** a „Célpont használata” újra alapból be, a célpont a kép közepe – bárhogy mozgatod a kamerát (csúszka, nyíl a fogón, húzás), mindig a képre néz; oldalról, alulról, felülről úgy látszik, ahogy egy valódi kamera venné
-- Az Y tengely felfelé pozitív, mint a Resolve-ban (a Hely Y + felfelé viszi a kamerát, egyezik a zöld nyíllal)
-- Védőkorlát: a kamera nem mehet a kép mögé vagy bele – ilyenkor magától hátrébb lép, így a kép nem esik szét
+- **Mindig visszaállítható az alaphelyzet a 3D-ben:** „⟲ Alaphelyzet” gomb a Perspektíva nézet sarkában (Home billentyű is), ⟲ minden kamera-szakasz mellett (Eltolás, Forgatás, Célpont, Lencse), dupla kattintás egy csúszkán: csak az az érték, és „⟲ Minden alaphelyzetbe” (kamera, 3D réteg, szándék-kamera, nézet – Ctrl+Z-vel visszavonható)
