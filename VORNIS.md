@@ -1,6 +1,7 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.7.4
+Legfrissebb verzió: 0.7.5
 
-- **A kép egy helyben marad, a kamera úgy mozog, mint a Resolve Fusionban:** a „Célpont használata” alapból ki van kapcsolva – a kamera mozgatása (csúszkán, a Felülnézetben vagy a Perspektívában húzva) nem fordítja el a kamerát, a Forgatás értékei nem változnak maguktól; oldalra tolt kamerával a kép a térben a helyén marad, és a jobb néző pontosan úgy mutatja, ahogy a kamera látja
-- Bekapcsolt „Célpont használata” mellett a kamera mindig a célpontra néz (mint eddig)
+- **A kép a helyén marad, a kamera körülötte mozog:** a „Célpont használata” újra alapból be, a célpont a kép közepe – bárhogy mozgatod a kamerát (csúszka, nyíl a fogón, húzás), mindig a képre néz; oldalról, alulról, felülről úgy látszik, ahogy egy valódi kamera venné
+- Az Y tengely felfelé pozitív, mint a Resolve-ban (a Hely Y + felfelé viszi a kamerát, egyezik a zöld nyíllal)
+- Védőkorlát: a kamera nem mehet a kép mögé vagy bele – ilyenkor magától hátrébb lép, így a kép nem esik szét
