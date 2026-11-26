@@ -1,7 +1,10 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.7.8
+Legfrissebb verzió: 0.7.9
 
-- **A kamera alaphelyzete mindig a gyári hely**, bárhogy van állítva: a ⟲ gombok (a kamera fejlécén, a Beállításokban és a Perspektíva sarkában, Home billentyű) minden kulcsot és mozgást törölnek, a „Célpont használata” is visszaáll; a szakaszok ⟲-je és a dupla kattintás minden kulcsban az alapra állít (a lencse pontosan 40° / 49,45 mm)
-- **A kész kameramozgások átállíthatók:** ⇄ Fordítva (a Daru fentről indul és leereszkedik, a Dolly be kifelé megy), ↔ Tükrözve, ↕ Fejjel lefelé, Erősség (25–200%), Könnyítés – egy kattintás, és a mozgás újraépül
-- **Érthetőbb időzítés az effekteknél:** a Kulcsok sávon látszik az erősség görbéje (mikor erősödik, mikor halkul), a pont húzásával időben mozgatható (kockára illeszkedik), kattintásra oda ugrik a lejátszófej, dupla kattintással törlődik; a Felfutás / Lecsengés gomb mutatja, hogy be van-e kapcsolva és meddig tart, újra kattintva kikapcsol; a könnyítés egy gomb a sáv mellett
+- **A kamera úgy veszi a képet, mint a Resolve-ban:** ha oldalra vagy körbe fordítod a kamerát (húzás, gyűrű, Forgatás- vagy Hely X/Y-mező), a kép nem lóg ki a keretből, hanem egészben, tárgyként látszik – a kamera magától annyit hátrál. Kapcsoló: „Kép a keretben” a kamera Transzformáció fülén (a közelítést nem korlátozza)
+- A Kamera nézet zöld kerete a képre vágva (nem lóg ki a nézőből)
+- **Szövegszerkesztő dupla kattintásra:** kattints kétszer egy címre (a felügyelőben a sorára vagy a szövegmezőjére), és a Varázsló a szöveg szerkesztőjébe visz: nagy néző, alul a betű-idővonal (mikor jelenik meg egy-egy betű – húzható), fent a szerkesztő sávja a szöveggel és azzal, mikor látszik
+- **◂ Vissza** oda, ahonnan jöttél – például egy kattintással vissza a 3D kamerához, ugyanabba az elrendezésbe
+- **⬇ PNG átlátszó háttérrel:** a szöveg a lejátszófej pillanatában, a kész film méretében (a Képek\Vornis Pro mappába) – más programba, bélyegképhez, logóhoz
+- **✦ Szabad mozgatás:** a betűk külön tárgyak lesznek, a nézőn fogókkal mozgathatók, forgathatók, nyújthatók
