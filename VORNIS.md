@@ -1,10 +1,7 @@
 # Vornis Pro
 
-Legfrissebb verzió: 0.7.7
+Legfrissebb verzió: 0.7.8
 
-- **3D jelenet sok képpel, mint a Resolve Fusion Merge3D-je:** tegyél több klipet egymás fölé (V1, V2, V3…), és egy kattintással mind egy közös 3D térbe kerül – 7 elrendezés: Mélységlépcső, Folyosó, Galéria fal, Legyező, Lebegő panelek, Kártyapakli, Körhinta
-- **✈ Átrepülés:** a kamera sorban minden sík elé repül és megáll; ami közben a kamera elé vagy mögé kerülne, az előtte szépen elhalványul. Utána minden kulcs szerkeszthető
-- **Takarás mélység szerint:** a közelebbi sík takarja a távolabbit (nem a sávok sorrendje dönt) – a nézőben és a kész filmben ugyanúgy
-- **Síkok kijelölése és mozgatása:** a Perspektívában rákattintva kijelölöd (narancs keret, névvel), húzással mozgatod, Ctrl-lal mélységben; a felügyelőben a jelenet síkjai egy kattintással választhatók
-- **Teljes sík-transzformáció** a Fusion ImagePlane3D rendjében: Eltolás X/Y/Z, Forgatás X/Y/Z, Méret – dupla kattintás egy csúszkán: alaphelyzet
-- Javítás: a BT.601-gyel jelölt (régebbi telefonos, SD) felvételek színe a kész filmben most pontosan olyan, mint a nézőben
+- **A kamera alaphelyzete mindig a gyári hely**, bárhogy van állítva: a ⟲ gombok (a kamera fejlécén, a Beállításokban és a Perspektíva sarkában, Home billentyű) minden kulcsot és mozgást törölnek, a „Célpont használata” is visszaáll; a szakaszok ⟲-je és a dupla kattintás minden kulcsban az alapra állít (a lencse pontosan 40° / 49,45 mm)
+- **A kész kameramozgások átállíthatók:** ⇄ Fordítva (a Daru fentről indul és leereszkedik, a Dolly be kifelé megy), ↔ Tükrözve, ↕ Fejjel lefelé, Erősség (25–200%), Könnyítés – egy kattintás, és a mozgás újraépül
+- **Érthetőbb időzítés az effekteknél:** a Kulcsok sávon látszik az erősség görbéje (mikor erősödik, mikor halkul), a pont húzásával időben mozgatható (kockára illeszkedik), kattintásra oda ugrik a lejátszófej, dupla kattintással törlődik; a Felfutás / Lecsengés gomb mutatja, hogy be van-e kapcsolva és meddig tart, újra kattintva kikapcsol; a könnyítés egy gomb a sáv mellett
